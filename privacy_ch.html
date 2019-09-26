@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Miracle Prehab</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Health medical template project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" type="text/css" href="styles/gallery_styles.css?v=1">
+<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+<style>
+
+.gallery-row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="super_container">
+
+    <!-- Menu -->
+
+    <div class="menu trans_500">
+        <div class="menu_content d-flex flex-column align-items-center justify-content-center text-center">
+            <div class="menu_close_container"><div class="menu_close"></div></div>
+            <!-- <form action="#" class="menu_search_form">
+                <input type="text" class="menu_search_input" placeholder="Search" required="required">
+                <button class="menu_search_button"><i class="fa fa-search" aria-hidden="true"></i></button>
+            </form> -->
+            <ul>
+                <li class="menu_item"><a href="index_ch.html#aboutus">關於我們</a></li>
+                <li class="menu_item"><a href="index_ch.html#aboutprehab">關於預健</a></li>
+                <li class="menu_item"><a href="index_ch.html#services">服務</a></li>
+                <li class="menu_item"><a href="index_ch.html#products">產品</a></li>
+                <li class="menu_item"><a href="index_ch.html#activities">活動及課程</a></li>
+                <li class="menu_item"><a href="index_ch.html#professional">團隊及伙伴</a></li>
+                <li class="menu_item"><a href="index_ch.html#contactus">聯絡我們</a></li>
+                <li class="menu_item"><a href="gallery_ch.html">相片圖集</a></li>
+                <li class="menu_item"><a href="#">隱私聲明</a></li>
+                <li class="menu_item"><a href="index_en.html">Eng</a> ｜ <a href="index_ch.html">中</a></li>
+            </ul>
+        </div>
+        <div class="menu_social">
+            <ul>
+                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true" style="font-size:32px"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true" style="font-size:32px"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <!-- Home -->
+
+    <div class="home" id="aboutus">
+        <!-- Header -->
+        <header class="header" id="header">
+            <div>
+                <div class="header_top">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <div class="header_top_content d-flex flex-row align-items-center justify-content-start">
+                                    <div class="logo">
+                                        <a href="#"><img src="images/fb_logo_100.png"> Miracle Prehab</a>   
+                                    </div>
+                                    <div class="header_top_extra d-flex flex-row align-items-center justify-content-start ml-auto">
+                                        <div class="header_top_nav">
+                                            <ul class="d-flex flex-row align-items-center justify-content-start">
+                                                <li><a href="index_en.html">Eng</a></li>
+                                                <li><a href="index_ch.html">中</a></li>
+                                                <li><a href="https://www.facebook.com/miracleprehab/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                                <li><a href="https://instagram.com/prehabmiracle"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="hamburger ml-auto"><i class="fa fa-bars" aria-hidden="true"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header_nav" id="header_nav_pin">
+                    <div class="header_nav_inner">
+                        <div class="header_nav_container">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="header_nav_content d-flex flex-row align-items-center justify-content-start">
+                                            <nav class="main_nav">
+                                                <ul class="d-flex flex-row align-items-center justify-content-start">
+                                                    <!-- <li class="active"><a href="index.html">Home</a></li> -->
+                                                    <li><a href="index_ch.html#aboutus">關於我們</a></li>
+                                                    <li><a href="index_ch.html#aboutprehab">關於預健</a></li>
+                                                    <li><a href="index_ch.html#services">服務</a></li>
+                                                    <li><a href="index_ch.html#products">產品</a></li>
+                                                    <li><a href="index_ch.html#activities">活動及課程</a></li>
+                                                    <li><a href="index_ch.html#professional">團隊及伙伴</a></li>
+                                                    <li><a href="index_ch.html#contactus">聯絡我們</a></li>
+                                                    <li><a href="gallery_ch.html">相片圖集</a></li>
+                                                    <li><a href="#">隱私聲明</a></li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </header>
+
+    </div>
+
+
+    <div class="services" id="aboutprehab">
+        <div class="container">
+            <div class="row" >
+                <div class="col text-center">
+                    <div class="section_title" style="padding-bottom:20px">隱私聲明</div>
+                </div>
+                <!-- Photo Grid -->
+                <div class="gallery-row" style="color:#000"> 
+                  
+
+<div>Miracle Prehab &amp; Sports Clinic is committed to protecting and respecting your privacy.
+This policy (together with our Terms of Use and any other documents referred to in it) sets out the basis on which any personal data we collect from you, or that you provide to us, will be processed by us. Please read the following carefully to understand our views and practices regarding your personal data and how we will treat it.
+</div>
+
+<div style="font-weight: bold; margin-top:30px">1. Information collection</div>
+<div style="margin-top:15px">1.1 In order to improve the services and products we offer to you, we may collect and process the following data about you: 
+<ul>
+<li style="padding-top:10px;">
+(a) information that you provide by filling in forms on our website www.miracleprehab.com.hk (the “Site”). This includes information provided at the time of registering to use our Site, subscribing to our service, posting material or requesting further services. We may also ask you for information at other times, for example in connection with a promotion or when you report a problem with our Site; 
+    </li>
+    <li style="padding-top:10px;">
+(b) if you contact us, we may keep a record of that correspondence; 
+    </li>
+    <li style="padding-top:10px;">
+(c) we may also ask you to complete surveys that we use for research purposes, although you do not have to respond to them; 
+    </li>
+    <li style="padding-top:10px;">
+(d) details of transactions you carry out through our Site and of the fulfilment of your orders; 
+    </li>
+    <li style="padding-top:10px;">
+(e) details of your visits to our Site and the resources that you access.
+    </li>
+    </ul>
+</div>
+<div style="margin-top:15px">
+1.2 You are under no obligation to provide your complete personal data. However, if you do not provide the information we require as specified in the relevant form or surveys, we will not be able to process your form or survey and to provide our services and products to you.
+</div>
+<div style="margin-top:15px">
+1.3 We only retain personal data for so long as it is necessary. Data may be archived as long as the purpose for which the data was used still exists.
+</div>
+<div style="font-weight: bold; margin-top:30px">
+2. Uses made of the information 
+</div>
+<div style="margin-top:15px">
+2.1 The purposes for which information may be used by us in and outside the Hong Kong Special Administrative Region include: 
+    <ul>
+    <li style="padding-top:10px;">
+(a) ensuring that content from our Site is presented in the most effective manner for you and for your computer; 
+    </li>
+    <li style="padding-top:10px;">
+(b) providing you with alerts, newsletter, education materials or information that you requested or signed up to; 
+    </li>
+    <li style="padding-top:10px;">
+(c) carrying out our obligations arising from any contracts entered into between you and us; 
+    </li>
+    <li style="padding-top:10px;">
+(d) allowing you to participate in interactive features of our service, when you choose to do so; 
+    </li>
+    <li style="padding-top:10px;">
+(e) designing and conducting surveys/questionnaires for client profiling/segmentation, statistical analysis, improving and furthering the provision our products and services; 
+    </li>
+    <li style="padding-top:10px;">
+(f) complying with laws and regulations applicable to us or any of our affiliates in or outside the Hong Kong Special Administrative Region; 
+    </li>
+    <li style="padding-top:10px;">
+(g) legal proceedings, including collecting overdue amounts and seeking professional advices; 
+    </li>
+    <li style="padding-top:10px;">
+(h) researching, designing and launching services or products including seminars/events/forums; 
+    </li>
+    <li style="padding-top:10px;">
+(i) promoting and marketing services and products subject to your exercise of the opt-out right (please see further details in Clause 2.2 below); or 
+    </li>
+    <li style="padding-top:10px;">
+(j) purposes directly related or incidental to the above. 
+    </li>
+    </ul>
+</div>
+<div style="margin-top:15px">
+2.2 We intend to use your data in direct marketing and we require your consent (which includes an indication of no objection) for that purpose. In this connection, please note that: 
+<ul>
+<li style="padding-top:10px;">
+(a) your name, contact details (including address, contact number, email address), products and services information, transaction pattern and behaviour, background and demographic data held by us from time to time may be used by us in direct marketing; 
+    </li>
+    <li style="padding-top:10px;">
+(b) the following classes of services, products and subjects may be marketed in direct marketing: 
+<ul>
+<li style="padding-left:15px;">
+(i) services and products related to our Site and/or our affiliates (including marketing affiliates programs we are a part of); 
+</li>
+<li style="padding-left:15px;">
+(ii) reward, loyalty or privileges programmes, promotional offers and related services; and 
+</li>
+<li style="padding-left:15px;">
+(iii) invitations to events such as seminars/webinars/tele-seminars, conferences, live programs or events. 
+</li></ul>
+    </li>
+    <li style="padding-top:10px;">
+(c) We may conduct direct marketing via fax, email, direct mail, telephone and other means of communication or send e-newsletters to you. You may choose not to receive promotional materials, by simply telling us (see below for contact details), and we will cease to do so, without charge. 
+    </li>
+    </ul>
+</div>
+<div style="font-weight: bold; margin-top:30px">
+3. Disclosure of your information 
+</div>
+<div style="margin-top:15px">
+We will keep the personal data we hold confidential but may provide information to:
+<ul>
+<li style="padding-top:10px;">
+(a) personnel, agents, advisers, auditors, contractors, financial institutions, and service providers in connection with our operations or services; 
+    </li>
+    <li style="padding-top:10px;">
+(b) our overseas offices, affiliates, business partners and counterparts (if any); 
+    </li>
+    <li style="padding-top:10px;">
+(c) persons under a duty of confidentiality to us; 
+    </li>
+    <li style="padding-top:10px;">
+(d) persons to whom we are required to make disclosure under applicable laws and regulations in or outside the Hong Kong Special Administrative Region; or 
+    </li>
+    <li style="padding-top:10px;">
+(e) actual or proposed transferees or participants of our services in or outside the Hong Kong Special Administrative Region.
+    </li>
+    </ul>
+</div>
+
+<div style="font-weight: bold; margin-top:30px">
+4. Cookies 
+</div>
+<div style="margin-top:15px">
+4.1 Our website uses cookies to distinguish you from other users of our website. This helps us to provide you with a good experience when you browse our website and also allows us to improve our Site. By continuing to browse the Site, you are agreeing to our use of cookies. 
+</div>
+<div style="margin-top:15px">
+4.2 A cookie is a small file of letters and numbers that we store on your browser or the hard drive of your computer if you agree. Cookies contain information that is transferred to your computer’s hard drive. 
+</div>
+<div style="margin-top:15px">
+4.3 We use the following cookies: 
+<ul>
+    <li style="padding-top:10px;">
+    (a) Strictly necessary cookies. These are cookies that are required for the operation of our website. They include, for example, cookies that enable you to log into secure areas of our website, use a shopping cart or make use of e-billing services. 
+    </li>
+    <li style="padding-top:10px;">
+    (b) Analytical/performance cookies. They allow us to recognise and count the number of visitors and to see how visitors move around our website when they are using it. This helps us to improve the way our website works, for example, by ensuring that users are finding what they are looking for easily. 
+    </li>
+    <li style="padding-top:10px;">
+    (c) Functionality cookies. These are used to recognise you when you return to our website. This enables us to personalise our content for you, greet you by name and remember your preferences (for example, your choice of language or region). 
+    </li>
+    <li style="padding-top:10px;">
+    (d) Targeting cookies. These cookies record your visit to our website, the pages you have visited and the links you have followed. We will use this information to make our website and the advertising displayed on it more relevant to your interests. We may also share this information with third parties for this purpose. 
+    </li>
+</ul>
+</div>
+<div style="margin-top:15px">
+4.4 Please note that third parties (including, for example, advertising networks and providers of external services like web traffic analysis services) may also use cookies, over which we have no control. These cookies are likely to be analytical/performance cookies or targeting cookies. 
+</div>
+<div style="margin-top:15px">
+4.5 We may use the following third party web analytic services on the website. The service providers that administer these services use technologies such as cookies, web server logs and web beacons to help us analyse how visitors use the website. The information collected through these means (including IP address) is disclosed to these service providers, who use the information to evaluate use of the website. These analytic services may use the data collected to contextualise and personalise the marketing materials of their own advertising network. 
+</div>
+<div style="margin-top:15px">
+4.6 Google Analytics is a web analysis service provided by Google Inc. (“Google”). Google’s ability to use and share information collected by Google Analytics is in accordance with their policies: http://www.google.com/policies/privacy/partners/ 
+</div>
+<div style="margin-top:15px">
+4.7 You can prevent Google’s collection and processing of data by using the Google Ads Settings page or downloading and installing their browser plug-in (https://tools.google.com/dlpage/gaoptout).
+</div>
+
+<div style="font-weight: bold; margin-top:30px">
+5. Security 
+</div>
+<div style="margin-top:15px">
+5.1 All information you provide to us is stored on our secure servers. Any payment transactions will be encrypted using SSL technology. Where we have given you (or where you have chosen) a password which enables you to access certain parts of our Site, you are responsible for keeping this password confidential. We ask you not to share a password with anyone. 
+</div>
+<div style="margin-top:15px">
+5.2 Unfortunately, the transmission of information via the internet is not completely secure. Although we will do our best to protect your personal data, we cannot guarantee the security of your data transmitted to our Site; any transmission is at your own risk. Once we have received your information, we will use strict procedures and security features to try to prevent unauthorised access.
+</div>
+
+<div style="font-weight: bold; margin-top:30px;"">
+6. Changes to our Privacy Policy 
+</div>
+<div style="margin-top:15px">
+Any changes we may make to our Privacy Policy in the future will be posted on this page. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</div>
+
+<div style="font-weight: bold; margin-top:30px;display:inline-block">
+7. Data transfers
+</div>
+<div style="margin-top:15px;display:inline-block">
+We may hold your data on servers in Hong Kong and any other territories as we see fit from time to time. We may also transfer your data to our overseas offices or to any people listed at Clause 3 above, who may be located in or outside of the Hong Kong Special Administrative Region.
+</div>
+
+<div style="font-weight: bold; margin-top:30px">
+8. Your consent and rights 
+</div>
+<div style="margin-top:15px">
+8.1 By using our service, making an application or visiting our website, you consent to the collection and use of your information and other activities as outlined in this policy. 
+</div>
+<div style="margin-top:15px">
+8.2 Under the Hong Kong Personal Data (Privacy) Ordinance (the “Ordinance”), individuals have the right: 
+<ul>
+<li style="padding-top:10px;">
+(a) to check whether we hold personal data about you and to access such data; 
+</li>
+<li style="padding-top:10px;">
+(b) to require us to correct as soon as reasonably practicable any data relating to you that is inaccurate; 
+</li>
+<li style="padding-top:10px;">
+(c) to ascertain our policies and practices in relation to personal data and the kind of personal data held by us; and 
+</li>
+<li style="padding-top:10px;">
+(d) to object to the use of your personal data for marketing purposes and we shall not use your personal data for marketing purposes after you communicate your objection to us. 
+</li>
+</ul>
+</div>
+<div style="margin-top:15px">
+8.3 You may exercise your opt-out right by notifying us if you wish to object to the use of your personal data for direct marketing purposes. Please send requests for such objections, access to data, correction of data, information regarding policies and practices and kinds of data held, questions or complaints to:
+Name: Attn: Privacy Policy
+Email: info@miracleprehab.com.hk 
+</div>
+<div style="margin-top:15px">
+8.4 In accordance with the terms of the Ordinance, we have the right to and may charge a reasonable fee for processing any data access request. 
+</div>
+<div style="margin-top:15px">
+8.5 In the event that a User wishes to access or amend his or her personal information and data, we may request him or her to provide personal details in order to verify and confirm his or her identity. A HKID card number or passport number or business registration certificate number cannot be amended unless such data is proved to be inaccurate.
+</div>
+
+
+<div style="font-weight: bold; margin-top:30px">
+9. Governing law and jurisdiction 
+</div>
+<div style="margin-top:15px">
+Nothing in this Privacy Policy shall limit the rights of the data subject under the Ordinance. This Privacy Policy shall be governed by the laws of the Hong Kong Special Administrative Region. You agree to submit to the exclusive jurisdiction of the Hong Kong courts.
+</div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+   
+
+    <!-- Footer -->
+
+    <footer class="footer" id="contactus">
+
+        <div class="footer_bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="footer_bar_content d-flex flex-sm-row flex-column align-items-lg-center align-items-start justify-content-start">
+                            <nav class="footer_nav">
+                                <ul class="d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-start">
+                                    <li><a href="index_ch.html#aboutus">關於我們</a></li>
+                                    <li><a href="index_ch.html#aboutprehab">關於預健</a></li>
+                                    <li><a href="index_ch.html#services">服務</a></li>
+                                    <li><a href="index_ch.html#products">產品</a></li>
+                                    <li><a href="index_ch.html#activities">活動及課程</a></li>
+                                    <li><a href="index_ch.html#professional">團隊及伙伴</a></li>
+                                    <li><a href="index_ch.html#contactus">聯絡我們</a></li>
+                                    <li><a href="gallery_ch.html">相片圖集</a></li>
+                                    <li><a href="#">隱私聲明</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</div>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="styles/bootstrap4/popper.js"></script>
+<script src="styles/bootstrap4/bootstrap.min.js"></script>
+<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="plugins/parallax-js-master/parallax.min.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>
